@@ -8,14 +8,12 @@ public class CharacterMove : MonoBehaviour
     [SerializeField] InputActionReference _moveInput;
     [SerializeField] Rigidbody2D _rb;
     [SerializeField] float _speed;
-
     [SerializeField] Animator _animator;
 
     void Update()
     {
-
+        // Move character
         Vector2 dir = _moveInput.action.ReadValue<Vector2>();
-
         _rb.velocity = dir * _speed;
 
         // Update character's orientation
@@ -31,13 +29,11 @@ public class CharacterMove : MonoBehaviour
         // Update animator
         if( dir.magnitude > 0 )
         {
-            _animator.SetBool("IsWalking", true);
+            _animator.SetFloat("MoveSpeed", 5);
         }
         else
         {
-            _animator.SetBool("IsWalking", false);
+            _animator.SetFloat("MoveSpeed", 0);
         }
-
-
     }
 }
