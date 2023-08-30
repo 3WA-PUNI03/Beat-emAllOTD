@@ -1,17 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Health : MonoBehaviour
 {
     [SerializeField] int _startHealth;
+    [SerializeField] Animator _animator;
+    [SerializeField] UnityEvent _onDamage;
 
     public void TakeDamage()
     {
 
         _startHealth -= 10;
 
-        if(_startHealth <= 0)
+        // Feedback
+        _animator.SetTrigger("Hurt");
+        _onDamage.Invoke();
+
+        // Death 
+        if (_startHealth <= 0)
         {
             Destroy(gameObject);
 

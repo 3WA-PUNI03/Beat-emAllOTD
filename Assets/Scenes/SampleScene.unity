@@ -306,11 +306,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6644278786348630070, guid: 924b1e33a4d6b8042999df5bd78a21f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.021
+      value: -0.051
       objectReference: {fileID: 0}
     - target: {fileID: 6644278786348630070, guid: 924b1e33a4d6b8042999df5bd78a21f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.05
+      value: 0.081
       objectReference: {fileID: 0}
     - target: {fileID: 6644278786348630070, guid: 924b1e33a4d6b8042999df5bd78a21f4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -349,6 +349,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 924b1e33a4d6b8042999df5bd78a21f4, type: 3}
+--- !u!82 &384999350 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1641770786371643997, guid: 9d3c4d3deb10a6146a66854982c872ff, type: 3}
+  m_PrefabInstance: {fileID: 6100481048900578353}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,7 +485,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.944, y: 0.315, z: -10}
+  m_LocalPosition: {x: -2.5299892, y: 0.24848999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -829,11 +834,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6644278786348630070, guid: 924b1e33a4d6b8042999df5bd78a21f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.597
+      value: -1.587
       objectReference: {fileID: 0}
     - target: {fileID: 6644278786348630070, guid: 924b1e33a4d6b8042999df5bd78a21f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.657
+      value: 0.277
       objectReference: {fileID: 0}
     - target: {fileID: 6644278786348630070, guid: 924b1e33a4d6b8042999df5bd78a21f4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -866,6 +871,10 @@ PrefabInstance:
     - target: {fileID: 6644278786348630070, guid: 924b1e33a4d6b8042999df5bd78a21f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8832063108725033419, guid: 924b1e33a4d6b8042999df5bd78a21f4, type: 3}
+      propertyPath: _startHealth
+      value: 1000000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -952,7 +961,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102874119}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.944, y: 0.315, z: -10}
+  m_LocalPosition: {x: -2.53, y: 0.028, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1215,6 +1224,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 69109321965918726, guid: 924b1e33a4d6b8042999df5bd78a21f4, type: 3}
+      propertyPath: m_Name
+      value: VFX
+      objectReference: {fileID: 0}
     - target: {fileID: 5307090437959179969, guid: 924b1e33a4d6b8042999df5bd78a21f4, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -1225,11 +1238,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6644278786348630070, guid: 924b1e33a4d6b8042999df5bd78a21f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.876
+      value: 0.125
       objectReference: {fileID: 0}
     - target: {fileID: 6644278786348630070, guid: 924b1e33a4d6b8042999df5bd78a21f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.285
+      value: 0.449
       objectReference: {fileID: 0}
     - target: {fileID: 6644278786348630070, guid: 924b1e33a4d6b8042999df5bd78a21f4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1282,11 +1295,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 280844166105800544, guid: 9d3c4d3deb10a6146a66854982c872ff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.944
+      value: -2.53
       objectReference: {fileID: 0}
     - target: {fileID: 280844166105800544, guid: 9d3c4d3deb10a6146a66854982c872ff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.315
+      value: 0.028
       objectReference: {fileID: 0}
     - target: {fileID: 280844166105800544, guid: 9d3c4d3deb10a6146a66854982c872ff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1347,6 +1360,38 @@ PrefabInstance:
     - target: {fileID: 2729564881081176973, guid: 9d3c4d3deb10a6146a66854982c872ff, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183224445740096560, guid: 9d3c4d3deb10a6146a66854982c872ff, type: 3}
+      propertyPath: _onAttack.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183224445740096560, guid: 9d3c4d3deb10a6146a66854982c872ff, type: 3}
+      propertyPath: _onAttack.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183224445740096560, guid: 9d3c4d3deb10a6146a66854982c872ff, type: 3}
+      propertyPath: _onAttack.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 384999350}
+    - target: {fileID: 3183224445740096560, guid: 9d3c4d3deb10a6146a66854982c872ff, type: 3}
+      propertyPath: _onAttack.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183224445740096560, guid: 9d3c4d3deb10a6146a66854982c872ff, type: 3}
+      propertyPath: _onAttack.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183224445740096560, guid: 9d3c4d3deb10a6146a66854982c872ff, type: 3}
+      propertyPath: _onAttack.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183224445740096560, guid: 9d3c4d3deb10a6146a66854982c872ff, type: 3}
+      propertyPath: _onAttack.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114647363437095608, guid: 9d3c4d3deb10a6146a66854982c872ff, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
